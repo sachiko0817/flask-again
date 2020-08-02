@@ -47,6 +47,12 @@ def dbtest():
 
 
 
+#ここからTODOアプリ
+@app.route('/add')
+def add_get():
+    return render_template('add.html')
+
+
 
 
 
